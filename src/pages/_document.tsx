@@ -6,7 +6,7 @@ export default function Document() {
   return (
     <Html lang="en" data-theme={`${theme}`}>
       <Head />
-      <body>
+      <body className="base-100">
         <Main />
         <NextScript />
       </body>
