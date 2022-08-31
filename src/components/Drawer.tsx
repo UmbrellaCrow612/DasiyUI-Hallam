@@ -25,7 +25,6 @@ export const Drawer: React.FC<DrawerProps> = ({ children }) => {
           </ul>
         </div>
       </div>
-      {children}
     </>
   )
 }

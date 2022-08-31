@@ -11,8 +11,8 @@ export const Header: React.FC<HeaderProps> = () => {
     <header>
       <nav className="justify-between mx-auto max-w-screen-2xl navbar">
         <div className='flex items-center gap-2 w-96'>
-          <SearchMenuHandler />
           <MobileMenuHandler />
+          <SearchMenuHandler />
           <SearchBar />
         </div>
         <div>

@@ -6,7 +6,7 @@ interface MobileMenuHandlerProps {}
 export const MobileMenuHandler: React.FC<MobileMenuHandlerProps> = () => {
   return (
     <>
-      <div className="dropdown">
+      <div className="hidden dropdown md:block">
         <label tabIndex={0} className="m-1 btn">
           <BiMenuAltLeft className="text-2xl" />
         </label>
@@ -23,6 +23,10 @@ export const MobileMenuHandler: React.FC<MobileMenuHandlerProps> = () => {
           ))}
         </ul>
       </div>
+
+      <label htmlFor="my-drawer" className="btn drawer-button md:hidden" aria-label='Open menu'>
+        <BiMenuAltLeft className="text-2xl" />
+      </label>
     </>
   )
 }
