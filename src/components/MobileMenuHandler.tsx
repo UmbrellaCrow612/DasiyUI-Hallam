@@ -14,13 +14,17 @@ export const MobileMenuHandler: React.FC<MobileMenuHandlerProps> = () => {
           tabIndex={0}
           className="p-2 shadow dropdown-content menu bg-base-100 rounded-box w-52"
         >
-          <li>
-            <Link href="">
-              <a>Item 1</a>
-            </Link>
-          </li>
+          {Options.map((Option) => (
+            <li key={Option}>
+              <Link href={`/${Option.toLowerCase()}`}>
+                <a>{Option}</a>
+              </Link>
+            </li>
+          ))}
         </ul>
       </div>
     </>
   )
 }
+
+const Options = ['Covid-19', 'Local-residents', 'MyHallam', 'Staff']
