@@ -4,7 +4,7 @@ interface SearchMenuHandlerProps {}
 
 export const SearchMenuHandler: React.FC<SearchMenuHandlerProps> = () => {
   return (
-    <button className="btn" aria-label='Search Menu'>
+    <button className="btn md:hidden" aria-label='Search Menu'>
       <BiSearchAlt2 />
     </button>
   )

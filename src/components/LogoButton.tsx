@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import { IoSchoolOutline } from 'react-icons/io5'
+import { AiOutlineHome } from 'react-icons/ai'
 
 interface LogoButtonProps {
 
@@ -14,7 +14,7 @@ export const LogoButton: React.FC<LogoButtonProps> = () => {
               className="btn"
               onClick={() => Router.push('/')}
             >
-              <IoSchoolOutline className="text-2xl" />
+              <AiOutlineHome className="text-2xl" />
             </button>
           </>
         )
