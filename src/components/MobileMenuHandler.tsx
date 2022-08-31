@@ -17,7 +17,7 @@ export const MobileMenuHandler: React.FC<MobileMenuHandlerProps> = () => {
           {Options.map((Option) => (
             <li key={Option}>
               <Link href={`/${Option.toLowerCase()}`}>
-                <a>{Option}</a>
+                <a>{Option.replace('-', ' ')}</a>
               </Link>
             </li>
           ))}
@@ -27,4 +27,16 @@ export const MobileMenuHandler: React.FC<MobileMenuHandlerProps> = () => {
   )
 }
 
-const Options = ['Covid-19', 'Local-residents', 'MyHallam', 'Staff']
+const Options = [
+  'Covid-19',
+  'Local-residents',
+  'MyHallam',
+  'Staff',
+  'Study-here',
+  'International',
+  'Research',
+  'Alumni',
+  'Visit-us',
+  'About-us',
+  'MORE',
+]
