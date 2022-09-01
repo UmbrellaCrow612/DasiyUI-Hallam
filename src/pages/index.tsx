@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import { Container } from '../components/Container'
+import { BiSearchAlt } from 'react-icons/bi'
 const Home: NextPage = () => {
   return (
     <Container>
@@ -24,6 +25,27 @@ const Home: NextPage = () => {
           <button className="btn btn-secondary">Explore</button>
           <button className="btn">Open days</button>
         </div>
+      </section>
+
+      <section className="h-[300px] gap-5 flex-col flex items-center justify-center text-center">
+        <h1 className="text-4xl font-extrabold leading-tight md:text-5xl text-secondary">
+          Course Search
+        </h1>
+
+        {/* Search input */}
+        <div className="w-1/2 form-control">
+          <div className="input-group">
+            <input
+              type="text"
+              placeholder="Search…"
+              className="w-full input input-bordered"
+            />
+            <button className="btn btn-square">
+              <BiSearchAlt className="w-6 h-6" />
+            </button>
+          </div>
+        </div>
+        {/* Search input ends*/}
       </section>
     </Container>
   )
