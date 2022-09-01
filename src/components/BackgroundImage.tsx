@@ -29,7 +29,7 @@ export const BackgroundImage: React.FC<BackgroundImageProps> = ({
       <Image
         src={src}
         alt={alt}
-        layout="fill"
+        layout="responsive"
         objectFit="cover"
         quality={100}
         placeholder="blur"

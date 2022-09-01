@@ -52,6 +52,5 @@ export const MobileMenuHandler: React.FC<MobileMenuHandlerProps> = () => {
 const Options = [
   'Student',
   'Staff',
-  'Study-here',
-  'International'
+  'Applicant',
 ]

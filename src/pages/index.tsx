@@ -47,6 +47,32 @@ const Home: NextPage = () => {
         </div>
         {/* Search input ends*/}
       </section>
+
+      <section className="h-[600px] flex-col gap-5 px-4 flex items-center justify-center text-center">
+        <h1 className="text-4xl font-extrabold leading-tight md:text-5xl">
+          Research at <span className="text-primary">Hallam</span>
+        </h1>
+        <h2 className="text-2xl font-extrabold leading-tight md:text-3xl">
+          We bring <span className="text-secondary">knowledge</span> to life
+          with innovative, real-world research.
+        </h2>
+        {/* mobile  */}
+        <div className="btn-group-vertical btn-group md:hidden">
+          <button className="btn btn-secondary">REF 2021 results</button>
+          <button className="btn btn-secondary">Research areas</button>
+          <button className="btn btn-secondary">Research degrees</button>
+          <button className="btn btn-secondary">Research in action</button>
+          <button className="btn btn-secondary">People</button>
+        </div>
+        {/* desktop  */}
+        <div className="hidden btn-group md:block">
+          <button className="btn btn-secondary">REF 2021 results</button>
+          <button className="btn btn-secondary">Research areas</button>
+          <button className="btn btn-secondary">Research degrees</button>
+          <button className="btn btn-secondary">Research in action</button>
+          <button className="btn btn-secondary">People</button>
+        </div>
+      </section>
     </Container>
   )
 }
