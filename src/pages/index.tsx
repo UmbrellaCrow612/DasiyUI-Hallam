@@ -2,6 +2,8 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import { Container } from '../components/Container'
 import { BiSearchAlt } from 'react-icons/bi'
+import { CardContainer } from '../components/CardContainer'
+import { Card } from '../components/Card'
 const Home: NextPage = () => {
   return (
     <Container>
@@ -72,6 +74,92 @@ const Home: NextPage = () => {
           <button className="btn btn-secondary">Research in action</button>
           <button className="btn btn-secondary">People</button>
         </div>
+      </section>
+
+      <section className="flex flex-col gap-5 px-4 py-3 text-center">
+        <h1 className="text-4xl font-extrabold leading-tight md:text-5xl">
+          For applicants
+        </h1>
+        <CardContainer>
+          <Card
+            src="/images/card-hero-1.jpeg"
+            alt=""
+            title="Explore Sheffield"
+            body="Our city is scenic, creative and super friendly. You're going to love it"
+            href=""
+          />
+          <Card
+            src="/images/card-hero-2.jpeg"
+            alt=""
+            title="Why choose us?"
+            body="Award-winning teaching, world-class facilities and dedicated support"
+            href=""
+          />
+          <Card
+            src="/images/card-hero-3.jpeg"
+            alt=""
+            title="Accommodation"
+            body="We'll find you a place to live in your first year guaranteed!"
+            href=""
+          />
+        </CardContainer>
+      </section>
+
+      <section className="flex flex-col gap-5 px-4 py-3 text-center">
+        <h1 className="text-4xl font-extrabold leading-tight md:text-5xl">
+          News
+        </h1>
+        <CardContainer>
+          <Card
+            src="/images/card-hero-1.jpeg"
+            alt=""
+            title="Explore Sheffield"
+            body="Our city is scenic, creative and super friendly. You're going to love it"
+            href=""
+          />
+          <Card
+            src="/images/card-hero-2.jpeg"
+            alt=""
+            title="Why choose us?"
+            body="Award-winning teaching, world-class facilities and dedicated support"
+            href=""
+          />
+          <Card
+            src="/images/card-hero-3.jpeg"
+            alt=""
+            title="Accommodation"
+            body="We'll find you a place to live in your first year guaranteed!"
+            href=""
+          />
+        </CardContainer>
+      </section>
+      <section className="flex flex-col gap-5 px-4 py-3 mb-5 text-center">
+        <h1 className="text-4xl font-extrabold leading-tight md:text-5xl">
+          About
+        </h1>
+        <CardContainer>
+          <Card
+            src="/images/card-hero-1.jpeg"
+            alt=""
+            title="Explore Sheffield"
+            body="Our city is scenic, creative and super friendly. You're going to love it"
+            href=""
+          />
+          <Card
+            src="/images/card-hero-2.jpeg"
+            alt=""
+            title="Why choose us?"
+            body="Award-winning teaching, world-class facilities and dedicated support"
+            href=""
+          />
+          <Card
+            src="/images/card-hero-3.jpeg"
+            alt=""
+            title="Accommodation"
+            body="We'll find you a place to live in your first year guaranteed!"
+            href=""
+          />
+        </CardContainer>
       </section>
     </Container>
   )
