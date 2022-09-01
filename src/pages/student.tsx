@@ -26,6 +26,7 @@ const student: NextPage = () => {
             <div className="swap-off">😇</div>
           </label>
           {/* Icon flipper ends*/}
+
           <div className="btn-group">
             <button className="btn btn-active">MyHallam</button>
             <button className="btn">Explore</button>
@@ -43,6 +44,25 @@ const student: NextPage = () => {
             <button className="btn">Find a service</button>
             <button className="btn btn-secondary">Hallam Help</button>
           </div>
+        </section>
+        {/* Popular */}
+        <section className="gap-5 h-[600px] mb-5 flex items-center justify-center text-center flex-col px-4">
+          <h1 className="text-5xl font-extrabold leading-tight md:text-6xl">
+            Most <span className="text-primary">popular...</span>
+          </h1>
+          <h2 className="text-3xl font-extrabold leading-tight md:text-4xl">
+            Discover what all the <span className="text-primary">fuss</span> is
+            about
+          </h2>
+          <div className="btn-group">
+            <button className="btn">Today</button>
+            <button className="btn">Week</button>
+            <button className="btn">All time</button>
+          </div>
+          <h3 className="text-2xl font-extrabold leading-tight md:text-3xl text-secondary">
+            Find out latest news, story&apos;s and article&apos;s from teachers
+            and student&apos;s now!
+          </h3>
         </section>
         {/* card one section */}
         <section className="gap-5 mb-5 flex items-center justify-center text-center flex-col px-4">
