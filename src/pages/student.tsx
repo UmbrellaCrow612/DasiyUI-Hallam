@@ -64,6 +64,62 @@ const student: NextPage = () => {
             and student&apos;s now!
           </h3>
         </section>
+        {/* Help in Emergency*/}
+        <section className="gap-5 h-[600px] mb-5 flex items-center justify-center text-center flex-col px-4">
+          <h1 className="text-5xl font-extrabold leading-tight md:text-6xl">
+            Help in an
+            <span className="text-primary"> emergency</span>
+          </h1>
+          <h2 className="text-3xl font-extrabold leading-tight md:text-4xl">
+            Sheffield Hallam in quick to act
+          </h2>
+          <div className="btn-group">
+            <button className="btn">Campus security</button>
+            <button className="btn">Report a incident</button>
+            <button className="btn btn-primary">More...</button>
+          </div>
+          <h3 className="text-2xl font-extrabold leading-tight md:text-3xl text-secondary">
+            You can trust us!
+          </h3>
+        </section>
+        {/* Popular queries*/}
+        <section className="gap-5 h-[600px] mb-5 flex items-center justify-center text-center flex-col px-4">
+          <h1 className="text-5xl font-extrabold leading-tight md:text-6xl">
+            Popular
+            <span className="text-primary"> queries</span>
+          </h1>
+          <h2 className="text-3xl font-extrabold leading-tight md:text-4xl">
+            Find out what everyone is asking
+          </h2>
+          <div className="btn-group">
+            <button className="btn">The Student Handbook</button>
+            <button className="btn">Academic calendar</button>
+            <button className="btn btn-primary">More...</button>
+          </div>
+          <h3 className="text-2xl font-extrabold leading-tight md:text-3xl text-secondary">
+            Find popular questions, topics and information
+          </h3>
+        </section>
+
+        {/* Student voice */}
+        <section className="gap-5 h-[600px] mb-5 flex items-center justify-center text-center flex-col px-4">
+          <h1 className="text-5xl font-extrabold leading-tight md:text-6xl">
+            Student
+            <span className="text-primary"> voice</span>
+          </h1>
+          <h2 className="text-3xl font-extrabold leading-tight md:text-4xl">
+            Bring your voice to our halls
+          </h2>
+          <div className="btn-group">
+            <button className="btn">Union</button>
+            <button className="btn">Help</button>
+            <button className="btn btn-primary">More...</button>
+          </div>
+          <h3 className="text-2xl font-extrabold leading-tight md:text-3xl text-secondary">
+            We’d like to work with you to improve what we do. Here’s how you can
+            get involved and make your voice heard.
+          </h3>
+        </section>
         {/* card one section */}
         <section className="gap-5 mb-5 flex items-center justify-center text-center flex-col px-4">
           <h1 className="text-5xl font-extrabold leading-tight md:text-6xl">
