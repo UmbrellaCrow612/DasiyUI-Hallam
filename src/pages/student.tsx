@@ -92,8 +92,8 @@ const student: NextPage = () => {
             Find out what everyone is asking
           </h2>
           <div className="btn-group">
-            <button className="btn">The Student Handbook</button>
-            <button className="btn">Academic calendar</button>
+            <button className="btn">Handbook</button>
+            <button className="btn">calendar</button>
             <button className="btn btn-primary">More...</button>
           </div>
           <h3 className="text-2xl font-extrabold leading-tight md:text-3xl text-secondary">
