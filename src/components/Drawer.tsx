@@ -6,7 +6,7 @@ export const Drawer: React.FC<DrawerProps> = ({ children }) => {
   return (
     <>
       <div className="drawer">
-        <input id="my-drawer" type="checkbox" className="drawer-toggle" />
+        <input id="my-drawer" type="checkbox" className="drawer-toggle" placeholder="Drawer"/>
         <div className="drawer-content">
           {/* <!-- Page content here --> */}
           {children}

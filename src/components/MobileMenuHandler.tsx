@@ -28,7 +28,7 @@ export const MobileMenuHandler: React.FC<MobileMenuHandlerProps> = () => {
               className={url === `/${Option.toLowerCase()}` && "bordered" || ""}
             >
               <Link href={`${Option.toLowerCase()}`}>
-                <a>
+                <a className='uppercase'>
                   {Option.replace('-', ' ')}
                 </a>
               </Link>
@@ -50,15 +50,8 @@ export const MobileMenuHandler: React.FC<MobileMenuHandlerProps> = () => {
 }
 
 const Options = [
-  'Covid-19',
-  'Local-residents',
-  'MyHallam',
+  'Student',
   'Staff',
   'Study-here',
-  'International',
-  'Research',
-  'Alumni',
-  'Visit-us',
-  'About-us',
-  'MORE',
+  'International'
 ]

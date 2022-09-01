@@ -1,16 +1,6 @@
-# Templates 
+# Using
 
-## Branches:
-
-Includes 
-
-- Tailwind stater 
-- MUI starter 
-- Prisma 
-- Next Auth
-- Next auth & Prisma Adaptor
-- All feats branch for production: Tailwind, Prisma, Next Auth.
-
-Things you could add:
-
-Next themes to Tailwind examples
+- 10015 io for spinner
+- Daisy UI for components
+- Next themes to switch between them
+- Tailwind elements sometimes
