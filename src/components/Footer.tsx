@@ -79,6 +79,9 @@ export const Footer: React.FC<FooterProps> = () => {
           </Link>
         </div>
       </footer>
+      <div className="w-full p-1 mx-auto text-xl text-center max-w-screen-2xl bg-base-200">
+        Copyright © {new Date().getFullYear()} YW
+      </div>
     </div>
   )
 }
