@@ -2,6 +2,7 @@ import { LogoButton } from './LogoButton'
 import { MobileMenuHandler } from './MobileMenuHandler'
 import { SearchBar } from './SearchBar'
 import { SearchMenuHandler } from './SearchMenuHandler'
+import { SubHeader } from './SubHeader'
 import { ThemeSwitcher } from './ThemeSwitcher'
 
 interface HeaderProps {}
@@ -20,6 +21,7 @@ export const Header: React.FC<HeaderProps> = () => {
           <LogoButton />
         </div>
       </nav>
+      <SubHeader />
     </header>
   )
 }
