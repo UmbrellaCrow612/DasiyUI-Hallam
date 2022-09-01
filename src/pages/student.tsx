@@ -1,5 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import { Card } from '../components/Card'
+import { CardContainer } from '../components/CardContainer'
 import { Container } from '../components/Container'
 const student: NextPage = () => {
   return (
@@ -41,6 +43,114 @@ const student: NextPage = () => {
             <button className="btn">Find a service</button>
             <button className="btn btn-secondary">Hallam Help</button>
           </div>
+        </section>
+        {/* card one section */}
+        <section className="gap-5 mb-5 flex items-center justify-center text-center flex-col px-4">
+          <h1 className="text-5xl font-extrabold leading-tight md:text-6xl">
+            University <span className="text-secondary">life</span>
+          </h1>
+          <h2 className="text-3xl font-extrabold leading-tight md:text-4xl">
+            Discover things about
+            <span className="text-primary"> yourself</span> and the university
+          </h2>
+          <CardContainer>
+            <Card
+              src="/images/card-hero-1.jpeg"
+              alt=""
+              title="Explore Sheffield"
+              body="Our city is scenic, creative and super friendly. You're going to love it"
+              href=""
+            />
+            <Card
+              src="/images/card-hero-1.jpeg"
+              alt=""
+              title="Explore Sheffield"
+              body="Our city is scenic, creative and super friendly. You're going to love it"
+              href=""
+            />
+            <Card
+              src="/images/card-hero-1.jpeg"
+              alt=""
+              title="Explore Sheffield"
+              body="Our city is scenic, creative and super friendly. You're going to love it"
+              href=""
+            />
+            <Card
+              src="/images/card-hero-1.jpeg"
+              alt=""
+              title="Explore Sheffield"
+              body="Our city is scenic, creative and super friendly. You're going to love it"
+              href=""
+            />
+            <Card
+              src="/images/card-hero-1.jpeg"
+              alt=""
+              title="Explore Sheffield"
+              body="Our city is scenic, creative and super friendly. You're going to love it"
+              href=""
+            />
+            <Card
+              src="/images/card-hero-1.jpeg"
+              alt=""
+              title="Explore Sheffield"
+              body="Our city is scenic, creative and super friendly. You're going to love it"
+              href=""
+            />
+            <Card
+              src="/images/card-hero-1.jpeg"
+              alt=""
+              title="Explore Sheffield"
+              body="Our city is scenic, creative and super friendly. You're going to love it"
+              href=""
+            />
+            <Card
+              src="/images/card-hero-1.jpeg"
+              alt=""
+              title="Explore Sheffield"
+              body="Our city is scenic, creative and super friendly. You're going to love it"
+              href=""
+            />
+            <Card
+              src="/images/card-hero-1.jpeg"
+              alt=""
+              title="Explore Sheffield"
+              body="Our city is scenic, creative and super friendly. You're going to love it"
+              href=""
+            />
+          </CardContainer>
+        </section>
+        {/* card two section */}
+        <section className="gap-5 mb-5 flex items-center justify-center text-center flex-col px-4">
+          <h1 className="text-5xl font-extrabold leading-tight md:text-6xl">
+            Teaching and <span className="text-secondary">learning</span>
+          </h1>
+          <h2 className="text-3xl font-extrabold leading-tight md:text-4xl">
+            Become a better
+            <span className="text-primary"> you</span>
+          </h2>
+          <CardContainer>
+            <Card
+              src="/images/card-hero-1.jpeg"
+              alt=""
+              title="Explore Sheffield"
+              body="Our city is scenic, creative and super friendly. You're going to love it"
+              href=""
+            />
+            <Card
+              src="/images/card-hero-1.jpeg"
+              alt=""
+              title="Explore Sheffield"
+              body="Our city is scenic, creative and super friendly. You're going to love it"
+              href=""
+            />
+            <Card
+              src="/images/card-hero-1.jpeg"
+              alt=""
+              title="Explore Sheffield"
+              body="Our city is scenic, creative and super friendly. You're going to love it"
+              href=""
+            />
+          </CardContainer>
         </section>
       </Container>
     </>

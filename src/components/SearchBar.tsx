@@ -2,10 +2,15 @@ interface SearchBarProps {}
 
 export const SearchBar: React.FC<SearchBarProps> = () => {
   return (
-    <input
-      type="text"
-      placeholder="Search the website"
-      className="hidden w-full max-w-sm input input-bordered md:flex"
-    />
+    <div className="hidden md:form-control ">
+      <label className="input-group">
+        <input
+          type="text"
+          placeholder="Search the website"
+          className="input input-bordered"
+        />
+        <label className="btn">⌘ K</label>
+      </label>
+    </div>
   )
 }
