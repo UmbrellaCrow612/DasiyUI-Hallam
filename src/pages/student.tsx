@@ -8,6 +8,10 @@ const student: NextPage = () => {
     <>
       <Head>
         <title>Student | Sheffield Hallam University</title>
+        <meta
+          name="description"
+          content="The home page for sheffield hallam university students, access myhallam, blackboard and more."
+        />
       </Head>
       <Container>
         <section className="h-[600px] gap-5 flex items-center justify-center text-center flex-col px-4">
@@ -27,8 +31,10 @@ const student: NextPage = () => {
           </label>
           {/* Icon flipper ends*/}
 
-          <div className="btn-group">
-            <button className="btn btn-active">MyHallam</button>
+          {/* Mobile */}
+          <div className="btn-group-vertical btn-group">
+            <button className="btn btn-primary">MyHallam</button>
+            <button className="btn">Blackboard</button>
             <button className="btn">Explore</button>
             <button className="btn">Support</button>
           </div>
@@ -74,8 +80,8 @@ const student: NextPage = () => {
             Sheffield Hallam in quick to act
           </h2>
           <div className="btn-group">
-            <button className="btn">Campus security</button>
-            <button className="btn">Report a incident</button>
+            <button className="btn">security</button>
+            <button className="btn">Report</button>
             <button className="btn btn-primary">More...</button>
           </div>
           <h3 className="text-2xl font-extrabold leading-tight md:text-3xl text-secondary">
