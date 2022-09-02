@@ -41,6 +41,35 @@ const applicant: NextPage = () => {
             <button className="btn">View open days</button>
           </div>
         </section>
+
+        <section className="h-[600px] px-4 flex gap-5 flex-col items-center justify-center text-center">
+          <h1 className="text-5xl font-extrabold leading-tight md:text-6xl">
+            <span className="text-primary">Support channels</span>
+          </h1>
+          <h2 className="text-3xl font-extrabold leading-tight md:text-4xl">
+            Get help from
+            <span className="text-secondary"> students and teachers</span>
+          </h2>
+          <div className="btn-group">
+            <button className="btn btn-primary">Help</button>
+            <button className="btn">Questions</button>
+            <button className="btn">Support</button>
+          </div>
+        </section>
+        <section className="h-[600px] px-4 flex gap-5 flex-col items-center justify-center text-center">
+          <h1 className="text-5xl font-extrabold leading-tight md:text-6xl">
+            Student <span className="text-primary">life</span>
+          </h1>
+          <h2 className="text-3xl font-extrabold leading-tight md:text-4xl">
+            Hear from first ahd experience from our
+            <span className="text-secondary"> amazing students</span>
+          </h2>
+          <div className="btn-group">
+            <button className="btn btn-primary">More</button>
+            <button className="btn">Support</button>
+            <button className="btn">Blog</button>
+          </div>
+        </section>
       </Container>
     </>
   )
