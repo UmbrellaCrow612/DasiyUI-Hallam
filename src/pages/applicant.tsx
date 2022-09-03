@@ -70,6 +70,19 @@ const applicant: NextPage = () => {
             <button className="btn">Blog</button>
           </div>
         </section>
+        <section className="h-[600px] px-4 flex gap-5 flex-col items-center justify-center text-center">
+          <h1 className="text-5xl font-extrabold leading-tight md:text-6xl">
+            Get in <span className="text-primary">touch</span>
+          </h1>
+          <h2 className="text-3xl font-extrabold leading-tight md:text-4xl">
+            Have a specific query? We are here to
+            <span className="text-secondary">help</span>
+          </h2>
+          <div className="btn-group">
+            <button className="btn btn-primary">Ask a question</button>
+            <button className="btn">Chat to a student</button>
+          </div>
+        </section>
       </Container>
     </>
   )
